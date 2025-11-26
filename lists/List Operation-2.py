@@ -1,0 +1,1 @@
+# List operations - extend, remove, pop
