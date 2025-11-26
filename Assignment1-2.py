@@ -7,6 +7,7 @@ Problem Statement: Write a Python program that:
 Expected Output:
 The program should output a greeting like:
 """
+#Here the code for the above problem.
 first_name = input("Enter the first name: ")
 last_name = input("Enter the last name: ")
 full_name = first_name+" "+last_name
