@@ -23,4 +23,4 @@ print(column_required1)
 column_required+=column_required1
 print(column_required)
 #Check if an item exists
-print("class-section1" in column_required)# Returns boolean value
+print("class-section1" in column_required)# Returns boolean value.
