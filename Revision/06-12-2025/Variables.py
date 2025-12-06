@@ -24,6 +24,6 @@ def student_data():
         print(student_name , goal, sep="-")
     show_data() # Call Inner Function
 student_data() # Call Outer Function
-print(keyword.kwlist)# It will return list having all reserved keyword.
+print(keyword.kwlist)# It will return list having all reserved keyword..
 
 
