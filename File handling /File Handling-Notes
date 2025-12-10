@@ -23,3 +23,7 @@
         openfile.write("This file is overwritten using the w modes.\n")
         openfile.write("Have a great day.")
         openfile.close()
+
+9. How to read a file in python.
+    . read() used to read the file contents as "String."
+    
