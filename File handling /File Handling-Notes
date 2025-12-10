@@ -1,0 +1,25 @@
+1. In python, file are managed into two types 1. Text File 2. Binary File
+2. Text file are files that stores data in the form of characters.
+3. Any files that stores data in bytes(8bits) is called Binary files.
+4. How do we open a file in python:
+    . For opening file in python, we have open(<file_name>,<mode_to_open>) function and should be stored in a variable as shown in example.
+    . Modes are: r(read),x(create),w(write/overwrite),a(append),t(text_file),b(binary_file)
+    . When open, the pointer will be at top.
+    . Eg: file_handler = open("practice.txt","tr") where t stand for text mode and r stand for read mode
+    .     print(file_handler)
+5. When open a file, make sure file should be close to prevent from data loss.
+    . How to close a file, a function called close() function.
+    . eg: file_handler.close()
+6. How to create a file:
+    . To create a file, follow the same operation as opening the file using open("new_file_name.txt","xt"), where x stands for create and t stand for text.
+    . If the python doesn't find the file , then it will create a new file with the name given in argument.
+    . eg: file1 = open("newfile.txt","xt")
+7. To write something into the new file we will use the write() and pass the argument i.e. content as string into it.
+    . eg: file1.write("Welcome to the file handling.\n")
+    . eg: file1.write("This is creating a new file.")
+8.  . w mode is used to open a file in write mode. This will overwrite the existing file.
+    . As we open the file in w mode, the content of the file will be deleted and ready for overwriting.
+        openfile=open("file1.txt","wt")
+        openfile.write("This file is overwritten using the w modes.\n")
+        openfile.write("Have a great day.")
+        openfile.close()
