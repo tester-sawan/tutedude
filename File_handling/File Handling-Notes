@@ -26,4 +26,16 @@
 
 9. How to read a file in python.
     . read() used to read the file contents as "String."
+    . read(<no. of characters>)
+
+
+10. readline() - This will return one complete line from the text file
+    eg: if we want to read line1 then <file_variable>.readline() and print the variable to print the line1. similary, we can read another line also.
+11. readlines() - This will return all the content together as a list.
+    . If we want to print, we can use for loop.
+    . to remove the \n from the list use, rstrip('\n') function.
+12 a(append mode) - This mode is use to append a new content in the file. Use the write() to write something that need to be appended into the existing file.
+13. "The with statement":
+    . 
+
     

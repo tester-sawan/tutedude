@@ -1,0 +1,5 @@
+file_open=open("/home/adventus-user/Documents/external_file.txt","at")
+file_open.write("This content is written using the 'a' append mode.")
+file_open=open("/home/adventus-user/Documents/external_file.txt","rt")
+read_file = file_open.read()
+print(read_file)
