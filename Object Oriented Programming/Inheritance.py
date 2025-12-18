@@ -17,3 +17,4 @@ print(obj1.add())
 
 # Class Variable will be called using the class name
 # Instance variable will be called using the object name
+# If there is any constructor available under parent then, we need to define a default constructor and call the parent constructor in it.
